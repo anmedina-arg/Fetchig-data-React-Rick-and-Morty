@@ -1,8 +1,6 @@
-const Title = () => {
-	console.log("renderiza el titulo")
-	return (
-		<h1>Rick and Morty</h1>
-	)
-}
+// eslint-disable-next-line react/prop-types
+const Title = ({ title }) => {
+  return <h1>{title}</h1>;
+};
 
 export default Title;
