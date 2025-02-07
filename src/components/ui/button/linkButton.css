@@ -1,0 +1,21 @@
+.linkButton {
+	background: #adff2f;
+	box-shadow: -3px -6px 5px -2px #53830c inset, 3px 6px 5px 2px #cdec9d inset;
+	padding: 1rem;
+	border: 2px solid #202020;
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: Roboto, serif;
+	color: #202020;
+	font-weight: 500;
+	transition: all 0.1s linear;
+}
+
+@media (hover: hover) {
+	.linkButton:hover {
+		background: #53830c;
+		box-shadow: 0px 0px 5px 3px #304e02 inset;
+		color: #ffffff;
+
+	}
+}

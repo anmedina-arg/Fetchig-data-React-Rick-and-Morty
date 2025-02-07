@@ -5,10 +5,10 @@ import { AuthContext } from './context/authContext';
 // eslint-disable-next-line react/prop-types
 const ProtectedRoute = ({ children }) => {
   const { user } = useContext(AuthContext);
-  console.log(user);
+  //console.log(user);
 
   if (!user) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/" replace />;
   }
 
   return children;

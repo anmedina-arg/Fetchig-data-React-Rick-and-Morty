@@ -1,12 +1,12 @@
 import RegisterForm from '../components/registerForm/registerForm';
-import NavigateButton from '../components/ui/button/navigateButton';
+import LinkButton from '../components/ui/button/linkButton';
 
 const RegisterPage = () => {
   return (
     <>
       <div>Hola soy register page</div>
       <RegisterForm />
-      <NavigateButton label={'Back'} />
+      <LinkButton label={'Back'} />
     </>
   );
 };

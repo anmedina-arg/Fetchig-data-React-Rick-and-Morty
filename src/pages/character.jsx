@@ -1,5 +1,5 @@
 const Character = () => {
-  return <main>hola soy main</main>;
+  return <main>aca podria buscar el personaje con un select</main>;
 };
 
 export default Character;

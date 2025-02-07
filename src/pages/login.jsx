@@ -1,12 +1,12 @@
 import LoginForm from '../components/loginForm/loginForm';
-import NavigateButton from '../components/ui/button/navigateButton';
+import LinkButton from '../components/ui/button/linkButton';
 
 const LoginPage = () => {
   return (
     <>
       <div>hola soy login page</div>
       <LoginForm />
-      <NavigateButton label={'Back'} />
+      <LinkButton label={'Back'} />
     </>
   );
 };

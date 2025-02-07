@@ -1,0 +1,14 @@
+.homeContainer {
+	background-image: radial-gradient(circle farthest-side, transparent 80%, black 100%), url('https://images.hdqwalls.com/download/rick-and-morty-out-of-control-4k-ak-1600x900.jpg');
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+}
+
+.homeButtons {
+	display: flex;
+	gap: 2rem;
+}
