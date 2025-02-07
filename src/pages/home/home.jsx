@@ -7,8 +7,8 @@ const Home = () => {
     <div className="homeContainer">
       <Title title="Welcome to another Rick and morty app!" />
       <div className="homeButtons">
-        <LinkButton to={'/register'} label={'Register'} />
-        <LinkButton to={'/login'} label={'Sign In'} />
+        <LinkButton path={'/register'} label={'Register'} />
+        <LinkButton path={'/login'} label={'Sign In'} />
       </div>
     </div>
   );

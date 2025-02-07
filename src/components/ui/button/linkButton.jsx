@@ -2,9 +2,9 @@ import './linkButton.css';
 import { Link } from 'react-router';
 
 // eslint-disable-next-line react/prop-types
-const LinkButton = ({ label }) => {
+const LinkButton = ({ label, path }) => {
   return (
-    <Link className="linkButton" to={'/'}>
+    <Link className="linkButton" to={path}>
       {label}
     </Link>
   );
