@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import Title from './components/title';
 import MainCards from './components/main';
 
@@ -9,13 +9,12 @@ Entonces luego de verificar que todo funcione bien, podemos extraer en distintos
 */
 
 function App() {
-
   return (
     <>
-      <Title/>
-      <MainCards/>
+      <Title />
+      <MainCards />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
